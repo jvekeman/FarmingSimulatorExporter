@@ -8,10 +8,10 @@ Provides information about:
 - Economy
 - Savegame info (time played, money... )
 ## Usage
-The exporter requires beautifulsoup and lxml which can be installed using
+The exporter requires beautifulsoup, lxml and prometheus-client which can be installed using
 
 ```
-pip install beautifulsoup4 lxml
+pip install beautifulsoup4 lxml prometheus-client
 ```
 
 Run
@@ -50,7 +50,8 @@ In addition a Grafana dashboard is provided.
 ## Extra
 The Farming Simulator is inspired by:
 https://www.robustperception.io/writing-a-jenkins-exporter-in-python/
-And uses following libraries
+
+and uses following libraries
 - BeautifulSoup
 - lxml
 - [prometheus_client](https://github.com/prometheus/client_python)
