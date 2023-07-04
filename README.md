@@ -10,11 +10,15 @@ Provides information about:
 ## Usage
 The exporter requires beautifulsoup and lxml which can be installed using
 
-```pip install beautifulsoup4 lxml```
+```
+pip install beautifulsoup4 lxml
+```
 
 Run
 
-```python3 .\files\fs22ex.py "<pathtosavegame>"```
+```
+python3 .\files\fs22ex.py "<pathtosavegame>"
+```
 
 to start the exporter. Savegame files are usually located at `C:\Users\<name>\OneDrive\Documents\My Games\FarmingSimulator2022\savegameX` 
 
