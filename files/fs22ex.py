@@ -89,7 +89,7 @@ def calculateFillLevelsAndLabels(defaultLabels, vehicle):
 
 if len(sys.argv) == 2:
     if (__name__ == '__main__'):
-        start_http_server(9118)
+        start_http_server(9321)
         REGISTRY.register(FarmingSimulatorExporter())
         while True: time.sleep(1)
 else:
