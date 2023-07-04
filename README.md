@@ -48,7 +48,7 @@ In addition a Grafana dashboard is provided.
 ![Dashboard](./images/dashboard.png)
 
 ## Extra
-The Farming Simulator is inspired by:
+The Farming Simulator Exporter is inspired by:
 https://www.robustperception.io/writing-a-jenkins-exporter-in-python/
 
 and uses following libraries
